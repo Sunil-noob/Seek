@@ -93,7 +93,7 @@ const styles = StyleSheet.create({
         
     },
     btnContainer:{
-        marginTop:"30%",
+        marginTop:"25%",
         width:"100%",
     },
     loginBtnContainer:{
