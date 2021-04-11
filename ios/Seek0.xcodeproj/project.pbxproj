@@ -1,0 +1,976 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 54;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		00E356F31AD99517003FC87E /* Seek0Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* Seek0Tests.m */; };
+		13B07FBC1A68108700A75B9A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.m */; };
+		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
+		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
+		1C8CAA1272FC9E513CEB9A4E /* libPods-Seek0-Seek0Tests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 84EE74E6104DDB7B51400EF2 /* libPods-Seek0-Seek0Tests.a */; };
+		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
+		CDE39F20D40B4E123B969A2A /* libPods-Seek0.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F254F89E54AD4D8AECECCEA0 /* libPods-Seek0.a */; };
+		EB83265CE2444D2EBF9194C0 /* Codec-Warm-Bold-Italic-trial.ttf in Resources */ = {isa = PBXBuildFile; fileRef = ACD2C23A35984FF5942FDEF5 /* Codec-Warm-Bold-Italic-trial.ttf */; };
+		8006CDFC54FC4AD280C653D1 /* Codec-Warm-Bold-trial.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C62EAFFA99B54515884D2E77 /* Codec-Warm-Bold-trial.ttf */; };
+		D9FE4DF111F1422CAAF73246 /* Codec-Warm-ExtraBold-Italic-trial.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 93AFAB7D3BFB47B9B3D06C55 /* Codec-Warm-ExtraBold-Italic-trial.ttf */; };
+		09FB7F455B454386BA578E2E /* Codec-Warm-ExtraBold-trial.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8CD8F714FFBD4FC386ABE4BC /* Codec-Warm-ExtraBold-trial.ttf */; };
+		375F5BF7FB614F62BAC24FBE /* Codec-Warm-ExtraLight-Italic-trial.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E421E39946F14712B0918D3F /* Codec-Warm-ExtraLight-Italic-trial.ttf */; };
+		B3B0F1A769FB40208B408A54 /* Codec-Warm-ExtraLight-trial.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 904989081BFE471E94318E0F /* Codec-Warm-ExtraLight-trial.ttf */; };
+		55769509BD364C52A6974CE5 /* Codec-Warm-Heavy-Italic-trial.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9FA84F2C2B36492D8B77C488 /* Codec-Warm-Heavy-Italic-trial.ttf */; };
+		31510A5EBDCB486E901FB71F /* Codec-Warm-Heavy-trial.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2D71D1C9967942A8A78F3D52 /* Codec-Warm-Heavy-trial.ttf */; };
+		20427C7C840749FD92C2A66F /* Codec-Warm-Light-Italic-trial.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A9B2B8BE917E4F709041F4A5 /* Codec-Warm-Light-Italic-trial.ttf */; };
+		3C6EC804C4A04178B216275D /* Codec-Warm-Light-trial.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CAFDF4B05BD14984850717EC /* Codec-Warm-Light-trial.ttf */; };
+		10614DEC2D224F2A8651E17C /* Codec-Warm-News-Italic-trial.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FD4556E36D624613815EFD35 /* Codec-Warm-News-Italic-trial.ttf */; };
+		E5BFBE3B2BEB49E98C3D76FB /* Codec-Warm-News-trial.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 14D457C311A1447386B12057 /* Codec-Warm-News-trial.ttf */; };
+		E132E20FF27A423D9253F02F /* Codec-Warm-Regular-Italic-trial.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5D91A2D396B44C1E9383F7BF /* Codec-Warm-Regular-Italic-trial.ttf */; };
+		6860207493764A5686B45524 /* Codec-Warm-Regular-trial.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8A06F44CE77B4D2691FFF784 /* Codec-Warm-Regular-trial.ttf */; };
+		EB88C8C35455400AB9298530 /* Codec-Warm-Thin-Italic-trial.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D2A2B73493F4416082694FBB /* Codec-Warm-Thin-Italic-trial.ttf */; };
+		6CF63FFCE78840EB923A845B /* Codec-Warm-Thin-trial.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6A2BF999E64741399E2169C4 /* Codec-Warm-Thin-trial.ttf */; };
+		1C977FB63FC94D9684DB2941 /* GalanoGrotesqueAltBlack.otf in Resources */ = {isa = PBXBuildFile; fileRef = 1D51D5C7060C42F9BD1F7505 /* GalanoGrotesqueAltBlack.otf */; };
+		EEAB39D113F442C5BA31DDA9 /* GalanoGrotesqueAltBlackItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 688D31D4426B4CA08DE7C2BA /* GalanoGrotesqueAltBlackItalic.otf */; };
+		E8DE94234963451CB714ABD3 /* GalanoGrotesqueAltBold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 02758BDB27C64B8BA2651D4F /* GalanoGrotesqueAltBold.otf */; };
+		A7E89F6075C143FE86ABBA6A /* GalanoGrotesqueAltBoldItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 7ABC9A371EFB4105B610B9D1 /* GalanoGrotesqueAltBoldItalic.otf */; };
+		AB9CEA55E5A7452F8A035BB2 /* GalanoGrotesqueAltExtraBold.otf in Resources */ = {isa = PBXBuildFile; fileRef = D13BB76C6FE04D83BF2E2300 /* GalanoGrotesqueAltExtraBold.otf */; };
+		7F5D00005EA64BE8AD57FA77 /* GalanoGrotesqueAltExtraBoldItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 63D8E5C56888463293768974 /* GalanoGrotesqueAltExtraBoldItalic.otf */; };
+		A427227309784EC9B51FCA88 /* GalanoGrotesqueAltExtraLight.otf in Resources */ = {isa = PBXBuildFile; fileRef = A5FD7FBEFAAA41E4B845A10E /* GalanoGrotesqueAltExtraLight.otf */; };
+		BC3E09A1C66D4E5FA5D576DD /* GalanoGrotesqueAltExtraLightItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = D6EDFA0A04814A989390C887 /* GalanoGrotesqueAltExtraLightItalic.otf */; };
+		7A4432B6BCB74598AB9E7E71 /* GalanoGrotesqueAltHeavy.otf in Resources */ = {isa = PBXBuildFile; fileRef = 2669259EF9BA4911AF81E975 /* GalanoGrotesqueAltHeavy.otf */; };
+		10D65C0823C84D349A65DC51 /* GalanoGrotesqueAltHeavyItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = EF927A8F78474BE9AB92E438 /* GalanoGrotesqueAltHeavyItalic.otf */; };
+		B6652E0D90AE484B9EF51147 /* GalanoGrotesqueAltItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = C45C08A6EAC2429C885F6EF4 /* GalanoGrotesqueAltItalic.otf */; };
+		1D801EFBEC1441C0B791BA37 /* GalanoGrotesqueAltLight.otf in Resources */ = {isa = PBXBuildFile; fileRef = EC12C04E687D46F79EF3D48E /* GalanoGrotesqueAltLight.otf */; };
+		3977D1B6DC0544B6B4991C21 /* GalanoGrotesqueAltLightItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 679362D930CF45348A140CAF /* GalanoGrotesqueAltLightItalic.otf */; };
+		62B2B7EB95634560BE144124 /* GalanoGrotesqueAltMedium.otf in Resources */ = {isa = PBXBuildFile; fileRef = B76ABCC5EF16415CBEDBEDFB /* GalanoGrotesqueAltMedium.otf */; };
+		90C335350F234CD2871923B9 /* GalanoGrotesqueAltMediumItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 6F06912209F24ECEA092A488 /* GalanoGrotesqueAltMediumItalic.otf */; };
+		F75DA9357E654EF6916D4541 /* GalanoGrotesqueAltRegular.otf in Resources */ = {isa = PBXBuildFile; fileRef = 42C28AF623ED449DAE2A0528 /* GalanoGrotesqueAltRegular.otf */; };
+		0D5DE44B76A8463481B56F7A /* GalanoGrotesqueAltSemiBold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 0E83C4BE7E194DBAB4C50A8B /* GalanoGrotesqueAltSemiBold.otf */; };
+		3CFE3733FD42448F9E0D2FD7 /* GalanoGrotesqueAltSemiBoldItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 6A12B954B7474D868DC1E2A5 /* GalanoGrotesqueAltSemiBoldItalic.otf */; };
+		AECDDB35051D4778B51F3669 /* GalanoGrotesqueAltThin.otf in Resources */ = {isa = PBXBuildFile; fileRef = FDFC7B9CFF4C445EA9F707C4 /* GalanoGrotesqueAltThin.otf */; };
+		4C065EF3993C4E3C972C07D3 /* GalanoGrotesqueAltThinItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 8FC7E9FD9C884EEC856B9B57 /* GalanoGrotesqueAltThinItalic.otf */; };
+		D7B7E0B65AA349879CE60EE5 /* GalanoGrotesqueBlack.otf in Resources */ = {isa = PBXBuildFile; fileRef = 5FE2F30ADA604A15A235B24A /* GalanoGrotesqueBlack.otf */; };
+		5345770AAF74412EA522DE61 /* GalanoGrotesqueBlackItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 0AF4A34C36CD407DB497F24C /* GalanoGrotesqueBlackItalic.otf */; };
+		5252CEAB692B43248DF61E33 /* GalanoGrotesqueBold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 2804F883BA984F15AB5AAC44 /* GalanoGrotesqueBold.otf */; };
+		ACDE7CAE24564E719C8A49F1 /* GalanoGrotesqueBoldItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 0E416E0614754E62BA109F3B /* GalanoGrotesqueBoldItalic.otf */; };
+		3136DB4EED1C4A88A290C90D /* GalanoGrotesqueExtraBold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 7D54156456644ED88E20245C /* GalanoGrotesqueExtraBold.otf */; };
+		7FA77A280E1D414A99441C66 /* GalanoGrotesqueExtraBoldItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 15337388E3B14E3081969F5E /* GalanoGrotesqueExtraBoldItalic.otf */; };
+		032EDDAEBA304F958528A907 /* GalanoGrotesqueExtraLight.otf in Resources */ = {isa = PBXBuildFile; fileRef = 0A74C1443AE941E294CF8796 /* GalanoGrotesqueExtraLight.otf */; };
+		54378E69A3D84EF89A8609D7 /* GalanoGrotesqueExtraLightItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 52BAACC80C634C7BA1FEBA40 /* GalanoGrotesqueExtraLightItalic.otf */; };
+		2027D6854C75437389FD9240 /* GalanoGrotesqueHeavy.otf in Resources */ = {isa = PBXBuildFile; fileRef = 2A62BFDCF37641C4ACA9DA0F /* GalanoGrotesqueHeavy.otf */; };
+		8B0B23733A794A6ABA07892B /* GalanoGrotesqueHeavyItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = D71889E72BCC47078261A0A9 /* GalanoGrotesqueHeavyItalic.otf */; };
+		993306DE4EF24AF7B6F36606 /* GalanoGrotesqueItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 9B72E3CC04AD44F199FD6DA7 /* GalanoGrotesqueItalic.otf */; };
+		405B5B2E59AA400B8371D1F0 /* GalanoGrotesqueLight.otf in Resources */ = {isa = PBXBuildFile; fileRef = 660D10288A39481389DC862B /* GalanoGrotesqueLight.otf */; };
+		AF90C1FE60594D5E850EEA07 /* GalanoGrotesqueLightItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 10986319532D4020A9AD32CE /* GalanoGrotesqueLightItalic.otf */; };
+		6F0C73A868504223B031AD60 /* GalanoGrotesqueMedium.otf in Resources */ = {isa = PBXBuildFile; fileRef = 92D23B825CC249D39D7A5216 /* GalanoGrotesqueMedium.otf */; };
+		98AA1A39ABF442E7AC5EA146 /* GalanoGrotesqueMediumItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 4A224E686C5B4A358E1131E3 /* GalanoGrotesqueMediumItalic.otf */; };
+		7BE618B1C188456B8F7D0AD5 /* GalanoGrotesqueRegular.otf in Resources */ = {isa = PBXBuildFile; fileRef = 6203CE5311534A99B2216ED8 /* GalanoGrotesqueRegular.otf */; };
+		AD3977E7E62D4EA29866F050 /* GalanoGrotesqueSemiBold.otf in Resources */ = {isa = PBXBuildFile; fileRef = F8EC9B794B224E8B82DBE09C /* GalanoGrotesqueSemiBold.otf */; };
+		4590594DD6DB4F0C833B26D3 /* GalanoGrotesqueSemiBoldItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 4E56DC6A5DE145DAA13C319B /* GalanoGrotesqueSemiBoldItalic.otf */; };
+		03170DA0B18248BEB0CBE372 /* GalanoGrotesqueThin.otf in Resources */ = {isa = PBXBuildFile; fileRef = 07A9054FA9AC416E8849836D /* GalanoGrotesqueThin.otf */; };
+		B080FBD2601B48B6A0E9122D /* GalanoGrotesqueThinItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 3423FA0B6F284CD6AF3F80FE /* GalanoGrotesqueThinItalic.otf */; };
+		A3E0D5EF8A244F6CADDD0FA7 /* MundialBlack.otf in Resources */ = {isa = PBXBuildFile; fileRef = D3E522F0A13F46E28FFD0F9B /* MundialBlack.otf */; };
+		5DA29FB4782E4C858120E5E4 /* MundialBlackItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 657842F2144D48C38E3B6D54 /* MundialBlackItalic.otf */; };
+		5C237DE319BA499C9BBE2895 /* MundialBold.otf in Resources */ = {isa = PBXBuildFile; fileRef = D98233B7C36B44308B8CBAB6 /* MundialBold.otf */; };
+		CC103D1C5E8049FD8E219B12 /* MundialBoldItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = A3F93B489BB94236ACEC652F /* MundialBoldItalic.otf */; };
+		7F41441F0AF14594BECFAB22 /* MundialDemibold.otf in Resources */ = {isa = PBXBuildFile; fileRef = F060D8CE691C4F09A4DD7A12 /* MundialDemibold.otf */; };
+		960363645DEB496E9EEC2CED /* MundialDemiboldItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 2729FB972C4A44078B23136C /* MundialDemiboldItalic.otf */; };
+		66E58217BC6848EFBF186AC4 /* MundialHair.otf in Resources */ = {isa = PBXBuildFile; fileRef = E8D80A2FA2804D938A74720B /* MundialHair.otf */; };
+		34C136186100416B9B7B0605 /* MundialHairItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 5CFB09D0243C4533A1154A73 /* MundialHairItalic.otf */; };
+		4030341058D0461697E62482 /* MundialItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 68C608550D4349CEB083CA8B /* MundialItalic.otf */; };
+		479688DF5882416FB4205EA5 /* MundialLight.otf in Resources */ = {isa = PBXBuildFile; fileRef = 07D3084D24204F2B9ED67AF8 /* MundialLight.otf */; };
+		9D846066251A450FBCC3C5C8 /* MundialLightItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 16D74A6526304BB7AFBAAD76 /* MundialLightItalic.otf */; };
+		2486A4E25A2F4C81B3564E0D /* MundialRegular.otf in Resources */ = {isa = PBXBuildFile; fileRef = 48EB7A17560E4E20BFC4F296 /* MundialRegular.otf */; };
+		C4AC9B83316D4F2D8AB29F29 /* MundialThin.otf in Resources */ = {isa = PBXBuildFile; fileRef = CAA06600B0304E20B39C90D6 /* MundialThin.otf */; };
+		A30E16CBDC4B430292E0D819 /* MundialThinItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = C8B7880E663F4B09AFA272DB /* MundialThinItalic.otf */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		00E356F41AD99517003FC87E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 83CBB9F71A601CBA00E9B192 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 13B07F861A680F5B00A75B9A;
+			remoteInfo = Seek0;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		00E356EE1AD99517003FC87E /* Seek0Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Seek0Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		00E356F11AD99517003FC87E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		00E356F21AD99517003FC87E /* Seek0Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Seek0Tests.m; sourceTree = "<group>"; };
+		13B07F961A680F5B00A75B9A /* Seek0.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Seek0.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = Seek0/AppDelegate.h; sourceTree = "<group>"; };
+		13B07FB01A68108700A75B9A /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = Seek0/AppDelegate.m; sourceTree = "<group>"; };
+		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = Seek0/Images.xcassets; sourceTree = "<group>"; };
+		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = Seek0/Info.plist; sourceTree = "<group>"; };
+		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = Seek0/main.m; sourceTree = "<group>"; };
+		29A9A8895AA2700D3F696A52 /* Pods-Seek0-Seek0Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Seek0-Seek0Tests.release.xcconfig"; path = "Target Support Files/Pods-Seek0-Seek0Tests/Pods-Seek0-Seek0Tests.release.xcconfig"; sourceTree = "<group>"; };
+		5323833B377014A2009F3105 /* Pods-Seek0-Seek0Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Seek0-Seek0Tests.debug.xcconfig"; path = "Target Support Files/Pods-Seek0-Seek0Tests/Pods-Seek0-Seek0Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		65E557235EBE520CE4BA0432 /* Pods-Seek0.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Seek0.debug.xcconfig"; path = "Target Support Files/Pods-Seek0/Pods-Seek0.debug.xcconfig"; sourceTree = "<group>"; };
+		7EFDD925245A5B5368A9B8A6 /* Pods-Seek0.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Seek0.release.xcconfig"; path = "Target Support Files/Pods-Seek0/Pods-Seek0.release.xcconfig"; sourceTree = "<group>"; };
+		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = Seek0/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		84EE74E6104DDB7B51400EF2 /* libPods-Seek0-Seek0Tests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Seek0-Seek0Tests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
+		F254F89E54AD4D8AECECCEA0 /* libPods-Seek0.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Seek0.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		ACD2C23A35984FF5942FDEF5 /* Codec-Warm-Bold-Italic-trial.ttf */ = {isa = PBXFileReference; name = "Codec-Warm-Bold-Italic-trial.ttf"; path = "../assets/fonts/Codec-Warm-Bold-Italic-trial.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		C62EAFFA99B54515884D2E77 /* Codec-Warm-Bold-trial.ttf */ = {isa = PBXFileReference; name = "Codec-Warm-Bold-trial.ttf"; path = "../assets/fonts/Codec-Warm-Bold-trial.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		93AFAB7D3BFB47B9B3D06C55 /* Codec-Warm-ExtraBold-Italic-trial.ttf */ = {isa = PBXFileReference; name = "Codec-Warm-ExtraBold-Italic-trial.ttf"; path = "../assets/fonts/Codec-Warm-ExtraBold-Italic-trial.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		8CD8F714FFBD4FC386ABE4BC /* Codec-Warm-ExtraBold-trial.ttf */ = {isa = PBXFileReference; name = "Codec-Warm-ExtraBold-trial.ttf"; path = "../assets/fonts/Codec-Warm-ExtraBold-trial.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		E421E39946F14712B0918D3F /* Codec-Warm-ExtraLight-Italic-trial.ttf */ = {isa = PBXFileReference; name = "Codec-Warm-ExtraLight-Italic-trial.ttf"; path = "../assets/fonts/Codec-Warm-ExtraLight-Italic-trial.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		904989081BFE471E94318E0F /* Codec-Warm-ExtraLight-trial.ttf */ = {isa = PBXFileReference; name = "Codec-Warm-ExtraLight-trial.ttf"; path = "../assets/fonts/Codec-Warm-ExtraLight-trial.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		9FA84F2C2B36492D8B77C488 /* Codec-Warm-Heavy-Italic-trial.ttf */ = {isa = PBXFileReference; name = "Codec-Warm-Heavy-Italic-trial.ttf"; path = "../assets/fonts/Codec-Warm-Heavy-Italic-trial.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		2D71D1C9967942A8A78F3D52 /* Codec-Warm-Heavy-trial.ttf */ = {isa = PBXFileReference; name = "Codec-Warm-Heavy-trial.ttf"; path = "../assets/fonts/Codec-Warm-Heavy-trial.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		A9B2B8BE917E4F709041F4A5 /* Codec-Warm-Light-Italic-trial.ttf */ = {isa = PBXFileReference; name = "Codec-Warm-Light-Italic-trial.ttf"; path = "../assets/fonts/Codec-Warm-Light-Italic-trial.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		CAFDF4B05BD14984850717EC /* Codec-Warm-Light-trial.ttf */ = {isa = PBXFileReference; name = "Codec-Warm-Light-trial.ttf"; path = "../assets/fonts/Codec-Warm-Light-trial.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		FD4556E36D624613815EFD35 /* Codec-Warm-News-Italic-trial.ttf */ = {isa = PBXFileReference; name = "Codec-Warm-News-Italic-trial.ttf"; path = "../assets/fonts/Codec-Warm-News-Italic-trial.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		14D457C311A1447386B12057 /* Codec-Warm-News-trial.ttf */ = {isa = PBXFileReference; name = "Codec-Warm-News-trial.ttf"; path = "../assets/fonts/Codec-Warm-News-trial.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		5D91A2D396B44C1E9383F7BF /* Codec-Warm-Regular-Italic-trial.ttf */ = {isa = PBXFileReference; name = "Codec-Warm-Regular-Italic-trial.ttf"; path = "../assets/fonts/Codec-Warm-Regular-Italic-trial.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		8A06F44CE77B4D2691FFF784 /* Codec-Warm-Regular-trial.ttf */ = {isa = PBXFileReference; name = "Codec-Warm-Regular-trial.ttf"; path = "../assets/fonts/Codec-Warm-Regular-trial.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		D2A2B73493F4416082694FBB /* Codec-Warm-Thin-Italic-trial.ttf */ = {isa = PBXFileReference; name = "Codec-Warm-Thin-Italic-trial.ttf"; path = "../assets/fonts/Codec-Warm-Thin-Italic-trial.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		6A2BF999E64741399E2169C4 /* Codec-Warm-Thin-trial.ttf */ = {isa = PBXFileReference; name = "Codec-Warm-Thin-trial.ttf"; path = "../assets/fonts/Codec-Warm-Thin-trial.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		1D51D5C7060C42F9BD1F7505 /* GalanoGrotesqueAltBlack.otf */ = {isa = PBXFileReference; name = "GalanoGrotesqueAltBlack.otf"; path = "../assets/fonts/GalanoGrotesqueAltBlack.otf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		688D31D4426B4CA08DE7C2BA /* GalanoGrotesqueAltBlackItalic.otf */ = {isa = PBXFileReference; name = "GalanoGrotesqueAltBlackItalic.otf"; path = "../assets/fonts/GalanoGrotesqueAltBlackItalic.otf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		02758BDB27C64B8BA2651D4F /* GalanoGrotesqueAltBold.otf */ = {isa = PBXFileReference; name = "GalanoGrotesqueAltBold.otf"; path = "../assets/fonts/GalanoGrotesqueAltBold.otf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		7ABC9A371EFB4105B610B9D1 /* GalanoGrotesqueAltBoldItalic.otf */ = {isa = PBXFileReference; name = "GalanoGrotesqueAltBoldItalic.otf"; path = "../assets/fonts/GalanoGrotesqueAltBoldItalic.otf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		D13BB76C6FE04D83BF2E2300 /* GalanoGrotesqueAltExtraBold.otf */ = {isa = PBXFileReference; name = "GalanoGrotesqueAltExtraBold.otf"; path = "../assets/fonts/GalanoGrotesqueAltExtraBold.otf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		63D8E5C56888463293768974 /* GalanoGrotesqueAltExtraBoldItalic.otf */ = {isa = PBXFileReference; name = "GalanoGrotesqueAltExtraBoldItalic.otf"; path = "../assets/fonts/GalanoGrotesqueAltExtraBoldItalic.otf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		A5FD7FBEFAAA41E4B845A10E /* GalanoGrotesqueAltExtraLight.otf */ = {isa = PBXFileReference; name = "GalanoGrotesqueAltExtraLight.otf"; path = "../assets/fonts/GalanoGrotesqueAltExtraLight.otf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		D6EDFA0A04814A989390C887 /* GalanoGrotesqueAltExtraLightItalic.otf */ = {isa = PBXFileReference; name = "GalanoGrotesqueAltExtraLightItalic.otf"; path = "../assets/fonts/GalanoGrotesqueAltExtraLightItalic.otf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		2669259EF9BA4911AF81E975 /* GalanoGrotesqueAltHeavy.otf */ = {isa = PBXFileReference; name = "GalanoGrotesqueAltHeavy.otf"; path = "../assets/fonts/GalanoGrotesqueAltHeavy.otf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		EF927A8F78474BE9AB92E438 /* GalanoGrotesqueAltHeavyItalic.otf */ = {isa = PBXFileReference; name = "GalanoGrotesqueAltHeavyItalic.otf"; path = "../assets/fonts/GalanoGrotesqueAltHeavyItalic.otf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		C45C08A6EAC2429C885F6EF4 /* GalanoGrotesqueAltItalic.otf */ = {isa = PBXFileReference; name = "GalanoGrotesqueAltItalic.otf"; path = "../assets/fonts/GalanoGrotesqueAltItalic.otf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		EC12C04E687D46F79EF3D48E /* GalanoGrotesqueAltLight.otf */ = {isa = PBXFileReference; name = "GalanoGrotesqueAltLight.otf"; path = "../assets/fonts/GalanoGrotesqueAltLight.otf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		679362D930CF45348A140CAF /* GalanoGrotesqueAltLightItalic.otf */ = {isa = PBXFileReference; name = "GalanoGrotesqueAltLightItalic.otf"; path = "../assets/fonts/GalanoGrotesqueAltLightItalic.otf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		B76ABCC5EF16415CBEDBEDFB /* GalanoGrotesqueAltMedium.otf */ = {isa = PBXFileReference; name = "GalanoGrotesqueAltMedium.otf"; path = "../assets/fonts/GalanoGrotesqueAltMedium.otf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		6F06912209F24ECEA092A488 /* GalanoGrotesqueAltMediumItalic.otf */ = {isa = PBXFileReference; name = "GalanoGrotesqueAltMediumItalic.otf"; path = "../assets/fonts/GalanoGrotesqueAltMediumItalic.otf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		42C28AF623ED449DAE2A0528 /* GalanoGrotesqueAltRegular.otf */ = {isa = PBXFileReference; name = "GalanoGrotesqueAltRegular.otf"; path = "../assets/fonts/GalanoGrotesqueAltRegular.otf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		0E83C4BE7E194DBAB4C50A8B /* GalanoGrotesqueAltSemiBold.otf */ = {isa = PBXFileReference; name = "GalanoGrotesqueAltSemiBold.otf"; path = "../assets/fonts/GalanoGrotesqueAltSemiBold.otf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		6A12B954B7474D868DC1E2A5 /* GalanoGrotesqueAltSemiBoldItalic.otf */ = {isa = PBXFileReference; name = "GalanoGrotesqueAltSemiBoldItalic.otf"; path = "../assets/fonts/GalanoGrotesqueAltSemiBoldItalic.otf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		FDFC7B9CFF4C445EA9F707C4 /* GalanoGrotesqueAltThin.otf */ = {isa = PBXFileReference; name = "GalanoGrotesqueAltThin.otf"; path = "../assets/fonts/GalanoGrotesqueAltThin.otf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		8FC7E9FD9C884EEC856B9B57 /* GalanoGrotesqueAltThinItalic.otf */ = {isa = PBXFileReference; name = "GalanoGrotesqueAltThinItalic.otf"; path = "../assets/fonts/GalanoGrotesqueAltThinItalic.otf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		5FE2F30ADA604A15A235B24A /* GalanoGrotesqueBlack.otf */ = {isa = PBXFileReference; name = "GalanoGrotesqueBlack.otf"; path = "../assets/fonts/GalanoGrotesqueBlack.otf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		0AF4A34C36CD407DB497F24C /* GalanoGrotesqueBlackItalic.otf */ = {isa = PBXFileReference; name = "GalanoGrotesqueBlackItalic.otf"; path = "../assets/fonts/GalanoGrotesqueBlackItalic.otf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		2804F883BA984F15AB5AAC44 /* GalanoGrotesqueBold.otf */ = {isa = PBXFileReference; name = "GalanoGrotesqueBold.otf"; path = "../assets/fonts/GalanoGrotesqueBold.otf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		0E416E0614754E62BA109F3B /* GalanoGrotesqueBoldItalic.otf */ = {isa = PBXFileReference; name = "GalanoGrotesqueBoldItalic.otf"; path = "../assets/fonts/GalanoGrotesqueBoldItalic.otf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		7D54156456644ED88E20245C /* GalanoGrotesqueExtraBold.otf */ = {isa = PBXFileReference; name = "GalanoGrotesqueExtraBold.otf"; path = "../assets/fonts/GalanoGrotesqueExtraBold.otf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		15337388E3B14E3081969F5E /* GalanoGrotesqueExtraBoldItalic.otf */ = {isa = PBXFileReference; name = "GalanoGrotesqueExtraBoldItalic.otf"; path = "../assets/fonts/GalanoGrotesqueExtraBoldItalic.otf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		0A74C1443AE941E294CF8796 /* GalanoGrotesqueExtraLight.otf */ = {isa = PBXFileReference; name = "GalanoGrotesqueExtraLight.otf"; path = "../assets/fonts/GalanoGrotesqueExtraLight.otf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		52BAACC80C634C7BA1FEBA40 /* GalanoGrotesqueExtraLightItalic.otf */ = {isa = PBXFileReference; name = "GalanoGrotesqueExtraLightItalic.otf"; path = "../assets/fonts/GalanoGrotesqueExtraLightItalic.otf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		2A62BFDCF37641C4ACA9DA0F /* GalanoGrotesqueHeavy.otf */ = {isa = PBXFileReference; name = "GalanoGrotesqueHeavy.otf"; path = "../assets/fonts/GalanoGrotesqueHeavy.otf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		D71889E72BCC47078261A0A9 /* GalanoGrotesqueHeavyItalic.otf */ = {isa = PBXFileReference; name = "GalanoGrotesqueHeavyItalic.otf"; path = "../assets/fonts/GalanoGrotesqueHeavyItalic.otf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		9B72E3CC04AD44F199FD6DA7 /* GalanoGrotesqueItalic.otf */ = {isa = PBXFileReference; name = "GalanoGrotesqueItalic.otf"; path = "../assets/fonts/GalanoGrotesqueItalic.otf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		660D10288A39481389DC862B /* GalanoGrotesqueLight.otf */ = {isa = PBXFileReference; name = "GalanoGrotesqueLight.otf"; path = "../assets/fonts/GalanoGrotesqueLight.otf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		10986319532D4020A9AD32CE /* GalanoGrotesqueLightItalic.otf */ = {isa = PBXFileReference; name = "GalanoGrotesqueLightItalic.otf"; path = "../assets/fonts/GalanoGrotesqueLightItalic.otf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		92D23B825CC249D39D7A5216 /* GalanoGrotesqueMedium.otf */ = {isa = PBXFileReference; name = "GalanoGrotesqueMedium.otf"; path = "../assets/fonts/GalanoGrotesqueMedium.otf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		4A224E686C5B4A358E1131E3 /* GalanoGrotesqueMediumItalic.otf */ = {isa = PBXFileReference; name = "GalanoGrotesqueMediumItalic.otf"; path = "../assets/fonts/GalanoGrotesqueMediumItalic.otf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		6203CE5311534A99B2216ED8 /* GalanoGrotesqueRegular.otf */ = {isa = PBXFileReference; name = "GalanoGrotesqueRegular.otf"; path = "../assets/fonts/GalanoGrotesqueRegular.otf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		F8EC9B794B224E8B82DBE09C /* GalanoGrotesqueSemiBold.otf */ = {isa = PBXFileReference; name = "GalanoGrotesqueSemiBold.otf"; path = "../assets/fonts/GalanoGrotesqueSemiBold.otf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		4E56DC6A5DE145DAA13C319B /* GalanoGrotesqueSemiBoldItalic.otf */ = {isa = PBXFileReference; name = "GalanoGrotesqueSemiBoldItalic.otf"; path = "../assets/fonts/GalanoGrotesqueSemiBoldItalic.otf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		07A9054FA9AC416E8849836D /* GalanoGrotesqueThin.otf */ = {isa = PBXFileReference; name = "GalanoGrotesqueThin.otf"; path = "../assets/fonts/GalanoGrotesqueThin.otf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		3423FA0B6F284CD6AF3F80FE /* GalanoGrotesqueThinItalic.otf */ = {isa = PBXFileReference; name = "GalanoGrotesqueThinItalic.otf"; path = "../assets/fonts/GalanoGrotesqueThinItalic.otf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		D3E522F0A13F46E28FFD0F9B /* MundialBlack.otf */ = {isa = PBXFileReference; name = "MundialBlack.otf"; path = "../assets/fonts/MundialBlack.otf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		657842F2144D48C38E3B6D54 /* MundialBlackItalic.otf */ = {isa = PBXFileReference; name = "MundialBlackItalic.otf"; path = "../assets/fonts/MundialBlackItalic.otf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		D98233B7C36B44308B8CBAB6 /* MundialBold.otf */ = {isa = PBXFileReference; name = "MundialBold.otf"; path = "../assets/fonts/MundialBold.otf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		A3F93B489BB94236ACEC652F /* MundialBoldItalic.otf */ = {isa = PBXFileReference; name = "MundialBoldItalic.otf"; path = "../assets/fonts/MundialBoldItalic.otf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		F060D8CE691C4F09A4DD7A12 /* MundialDemibold.otf */ = {isa = PBXFileReference; name = "MundialDemibold.otf"; path = "../assets/fonts/MundialDemibold.otf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		2729FB972C4A44078B23136C /* MundialDemiboldItalic.otf */ = {isa = PBXFileReference; name = "MundialDemiboldItalic.otf"; path = "../assets/fonts/MundialDemiboldItalic.otf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		E8D80A2FA2804D938A74720B /* MundialHair.otf */ = {isa = PBXFileReference; name = "MundialHair.otf"; path = "../assets/fonts/MundialHair.otf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		5CFB09D0243C4533A1154A73 /* MundialHairItalic.otf */ = {isa = PBXFileReference; name = "MundialHairItalic.otf"; path = "../assets/fonts/MundialHairItalic.otf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		68C608550D4349CEB083CA8B /* MundialItalic.otf */ = {isa = PBXFileReference; name = "MundialItalic.otf"; path = "../assets/fonts/MundialItalic.otf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		07D3084D24204F2B9ED67AF8 /* MundialLight.otf */ = {isa = PBXFileReference; name = "MundialLight.otf"; path = "../assets/fonts/MundialLight.otf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		16D74A6526304BB7AFBAAD76 /* MundialLightItalic.otf */ = {isa = PBXFileReference; name = "MundialLightItalic.otf"; path = "../assets/fonts/MundialLightItalic.otf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		48EB7A17560E4E20BFC4F296 /* MundialRegular.otf */ = {isa = PBXFileReference; name = "MundialRegular.otf"; path = "../assets/fonts/MundialRegular.otf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		CAA06600B0304E20B39C90D6 /* MundialThin.otf */ = {isa = PBXFileReference; name = "MundialThin.otf"; path = "../assets/fonts/MundialThin.otf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		C8B7880E663F4B09AFA272DB /* MundialThinItalic.otf */ = {isa = PBXFileReference; name = "MundialThinItalic.otf"; path = "../assets/fonts/MundialThinItalic.otf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		00E356EB1AD99517003FC87E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1C8CAA1272FC9E513CEB9A4E /* libPods-Seek0-Seek0Tests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		13B07F8C1A680F5B00A75B9A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CDE39F20D40B4E123B969A2A /* libPods-Seek0.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		00E356EF1AD99517003FC87E /* Seek0Tests */ = {
+			isa = PBXGroup;
+			children = (
+				00E356F21AD99517003FC87E /* Seek0Tests.m */,
+				00E356F01AD99517003FC87E /* Supporting Files */,
+			);
+			path = Seek0Tests;
+			sourceTree = "<group>";
+		};
+		00E356F01AD99517003FC87E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				00E356F11AD99517003FC87E /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		0AE38A36FE16F6A7ACDBAC6B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				65E557235EBE520CE4BA0432 /* Pods-Seek0.debug.xcconfig */,
+				7EFDD925245A5B5368A9B8A6 /* Pods-Seek0.release.xcconfig */,
+				5323833B377014A2009F3105 /* Pods-Seek0-Seek0Tests.debug.xcconfig */,
+				29A9A8895AA2700D3F696A52 /* Pods-Seek0-Seek0Tests.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		13B07FAE1A68108700A75B9A /* Seek0 */ = {
+			isa = PBXGroup;
+			children = (
+				13B07FAF1A68108700A75B9A /* AppDelegate.h */,
+				13B07FB01A68108700A75B9A /* AppDelegate.m */,
+				13B07FB51A68108700A75B9A /* Images.xcassets */,
+				13B07FB61A68108700A75B9A /* Info.plist */,
+				81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */,
+				13B07FB71A68108700A75B9A /* main.m */,
+			);
+			name = Seek0;
+			sourceTree = "<group>";
+		};
+		2D16E6871FA4F8E400B85C8A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				ED297162215061F000B7C4FE /* JavaScriptCore.framework */,
+				F254F89E54AD4D8AECECCEA0 /* libPods-Seek0.a */,
+				84EE74E6104DDB7B51400EF2 /* libPods-Seek0-Seek0Tests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		832341AE1AAA6A7D00B99B32 /* Libraries */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Libraries;
+			sourceTree = "<group>";
+		};
+		83CBB9F61A601CBA00E9B192 = {
+			isa = PBXGroup;
+			children = (
+				13B07FAE1A68108700A75B9A /* Seek0 */,
+				832341AE1AAA6A7D00B99B32 /* Libraries */,
+				00E356EF1AD99517003FC87E /* Seek0Tests */,
+				83CBBA001A601CBA00E9B192 /* Products */,
+				2D16E6871FA4F8E400B85C8A /* Frameworks */,
+				0AE38A36FE16F6A7ACDBAC6B /* Pods */,
+				842FB68E5DC74DC9B9B3764C /* Resources */,
+			);
+			indentWidth = 2;
+			sourceTree = "<group>";
+			tabWidth = 2;
+			usesTabs = 0;
+		};
+		83CBBA001A601CBA00E9B192 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				13B07F961A680F5B00A75B9A /* Seek0.app */,
+				00E356EE1AD99517003FC87E /* Seek0Tests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		842FB68E5DC74DC9B9B3764C /* Resources */ = {
+			isa = "PBXGroup";
+			children = (
+				ACD2C23A35984FF5942FDEF5 /* Codec-Warm-Bold-Italic-trial.ttf */,
+				C62EAFFA99B54515884D2E77 /* Codec-Warm-Bold-trial.ttf */,
+				93AFAB7D3BFB47B9B3D06C55 /* Codec-Warm-ExtraBold-Italic-trial.ttf */,
+				8CD8F714FFBD4FC386ABE4BC /* Codec-Warm-ExtraBold-trial.ttf */,
+				E421E39946F14712B0918D3F /* Codec-Warm-ExtraLight-Italic-trial.ttf */,
+				904989081BFE471E94318E0F /* Codec-Warm-ExtraLight-trial.ttf */,
+				9FA84F2C2B36492D8B77C488 /* Codec-Warm-Heavy-Italic-trial.ttf */,
+				2D71D1C9967942A8A78F3D52 /* Codec-Warm-Heavy-trial.ttf */,
+				A9B2B8BE917E4F709041F4A5 /* Codec-Warm-Light-Italic-trial.ttf */,
+				CAFDF4B05BD14984850717EC /* Codec-Warm-Light-trial.ttf */,
+				FD4556E36D624613815EFD35 /* Codec-Warm-News-Italic-trial.ttf */,
+				14D457C311A1447386B12057 /* Codec-Warm-News-trial.ttf */,
+				5D91A2D396B44C1E9383F7BF /* Codec-Warm-Regular-Italic-trial.ttf */,
+				8A06F44CE77B4D2691FFF784 /* Codec-Warm-Regular-trial.ttf */,
+				D2A2B73493F4416082694FBB /* Codec-Warm-Thin-Italic-trial.ttf */,
+				6A2BF999E64741399E2169C4 /* Codec-Warm-Thin-trial.ttf */,
+				1D51D5C7060C42F9BD1F7505 /* GalanoGrotesqueAltBlack.otf */,
+				688D31D4426B4CA08DE7C2BA /* GalanoGrotesqueAltBlackItalic.otf */,
+				02758BDB27C64B8BA2651D4F /* GalanoGrotesqueAltBold.otf */,
+				7ABC9A371EFB4105B610B9D1 /* GalanoGrotesqueAltBoldItalic.otf */,
+				D13BB76C6FE04D83BF2E2300 /* GalanoGrotesqueAltExtraBold.otf */,
+				63D8E5C56888463293768974 /* GalanoGrotesqueAltExtraBoldItalic.otf */,
+				A5FD7FBEFAAA41E4B845A10E /* GalanoGrotesqueAltExtraLight.otf */,
+				D6EDFA0A04814A989390C887 /* GalanoGrotesqueAltExtraLightItalic.otf */,
+				2669259EF9BA4911AF81E975 /* GalanoGrotesqueAltHeavy.otf */,
+				EF927A8F78474BE9AB92E438 /* GalanoGrotesqueAltHeavyItalic.otf */,
+				C45C08A6EAC2429C885F6EF4 /* GalanoGrotesqueAltItalic.otf */,
+				EC12C04E687D46F79EF3D48E /* GalanoGrotesqueAltLight.otf */,
+				679362D930CF45348A140CAF /* GalanoGrotesqueAltLightItalic.otf */,
+				B76ABCC5EF16415CBEDBEDFB /* GalanoGrotesqueAltMedium.otf */,
+				6F06912209F24ECEA092A488 /* GalanoGrotesqueAltMediumItalic.otf */,
+				42C28AF623ED449DAE2A0528 /* GalanoGrotesqueAltRegular.otf */,
+				0E83C4BE7E194DBAB4C50A8B /* GalanoGrotesqueAltSemiBold.otf */,
+				6A12B954B7474D868DC1E2A5 /* GalanoGrotesqueAltSemiBoldItalic.otf */,
+				FDFC7B9CFF4C445EA9F707C4 /* GalanoGrotesqueAltThin.otf */,
+				8FC7E9FD9C884EEC856B9B57 /* GalanoGrotesqueAltThinItalic.otf */,
+				5FE2F30ADA604A15A235B24A /* GalanoGrotesqueBlack.otf */,
+				0AF4A34C36CD407DB497F24C /* GalanoGrotesqueBlackItalic.otf */,
+				2804F883BA984F15AB5AAC44 /* GalanoGrotesqueBold.otf */,
+				0E416E0614754E62BA109F3B /* GalanoGrotesqueBoldItalic.otf */,
+				7D54156456644ED88E20245C /* GalanoGrotesqueExtraBold.otf */,
+				15337388E3B14E3081969F5E /* GalanoGrotesqueExtraBoldItalic.otf */,
+				0A74C1443AE941E294CF8796 /* GalanoGrotesqueExtraLight.otf */,
+				52BAACC80C634C7BA1FEBA40 /* GalanoGrotesqueExtraLightItalic.otf */,
+				2A62BFDCF37641C4ACA9DA0F /* GalanoGrotesqueHeavy.otf */,
+				D71889E72BCC47078261A0A9 /* GalanoGrotesqueHeavyItalic.otf */,
+				9B72E3CC04AD44F199FD6DA7 /* GalanoGrotesqueItalic.otf */,
+				660D10288A39481389DC862B /* GalanoGrotesqueLight.otf */,
+				10986319532D4020A9AD32CE /* GalanoGrotesqueLightItalic.otf */,
+				92D23B825CC249D39D7A5216 /* GalanoGrotesqueMedium.otf */,
+				4A224E686C5B4A358E1131E3 /* GalanoGrotesqueMediumItalic.otf */,
+				6203CE5311534A99B2216ED8 /* GalanoGrotesqueRegular.otf */,
+				F8EC9B794B224E8B82DBE09C /* GalanoGrotesqueSemiBold.otf */,
+				4E56DC6A5DE145DAA13C319B /* GalanoGrotesqueSemiBoldItalic.otf */,
+				07A9054FA9AC416E8849836D /* GalanoGrotesqueThin.otf */,
+				3423FA0B6F284CD6AF3F80FE /* GalanoGrotesqueThinItalic.otf */,
+				D3E522F0A13F46E28FFD0F9B /* MundialBlack.otf */,
+				657842F2144D48C38E3B6D54 /* MundialBlackItalic.otf */,
+				D98233B7C36B44308B8CBAB6 /* MundialBold.otf */,
+				A3F93B489BB94236ACEC652F /* MundialBoldItalic.otf */,
+				F060D8CE691C4F09A4DD7A12 /* MundialDemibold.otf */,
+				2729FB972C4A44078B23136C /* MundialDemiboldItalic.otf */,
+				E8D80A2FA2804D938A74720B /* MundialHair.otf */,
+				5CFB09D0243C4533A1154A73 /* MundialHairItalic.otf */,
+				68C608550D4349CEB083CA8B /* MundialItalic.otf */,
+				07D3084D24204F2B9ED67AF8 /* MundialLight.otf */,
+				16D74A6526304BB7AFBAAD76 /* MundialLightItalic.otf */,
+				48EB7A17560E4E20BFC4F296 /* MundialRegular.otf */,
+				CAA06600B0304E20B39C90D6 /* MundialThin.otf */,
+				C8B7880E663F4B09AFA272DB /* MundialThinItalic.otf */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+			path = "";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		00E356ED1AD99517003FC87E /* Seek0Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "Seek0Tests" */;
+			buildPhases = (
+				6E1E042DC6FC3D6B9B5AA7EF /* [CP] Check Pods Manifest.lock */,
+				00E356EA1AD99517003FC87E /* Sources */,
+				00E356EB1AD99517003FC87E /* Frameworks */,
+				00E356EC1AD99517003FC87E /* Resources */,
+				33FFB8840AF995C9002FB811 /* [CP] Embed Pods Frameworks */,
+				D21996B98DB78B184FA66331 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				00E356F51AD99517003FC87E /* PBXTargetDependency */,
+			);
+			name = Seek0Tests;
+			productName = Seek0Tests;
+			productReference = 00E356EE1AD99517003FC87E /* Seek0Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		13B07F861A680F5B00A75B9A /* Seek0 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "Seek0" */;
+			buildPhases = (
+				A847EFC4DB5BD52293AEB7F0 /* [CP] Check Pods Manifest.lock */,
+				FD10A7F022414F080027D42C /* Start Packager */,
+				13B07F871A680F5B00A75B9A /* Sources */,
+				13B07F8C1A680F5B00A75B9A /* Frameworks */,
+				13B07F8E1A680F5B00A75B9A /* Resources */,
+				00DD1BFF1BD5951E006B06BC /* Bundle React Native code and images */,
+				E52EEE4A31CD703B2F46288E /* [CP] Embed Pods Frameworks */,
+				B4DF1CB054D5763441579214 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Seek0;
+			productName = Seek0;
+			productReference = 13B07F961A680F5B00A75B9A /* Seek0.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		83CBB9F71A601CBA00E9B192 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1210;
+				TargetAttributes = {
+					00E356ED1AD99517003FC87E = {
+						CreatedOnToolsVersion = 6.2;
+						TestTargetID = 13B07F861A680F5B00A75B9A;
+					};
+					13B07F861A680F5B00A75B9A = {
+						LastSwiftMigration = 1120;
+					};
+				};
+			};
+			buildConfigurationList = 83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "Seek0" */;
+			compatibilityVersion = "Xcode 12.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 83CBB9F61A601CBA00E9B192;
+			productRefGroup = 83CBBA001A601CBA00E9B192 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				13B07F861A680F5B00A75B9A /* Seek0 */,
+				00E356ED1AD99517003FC87E /* Seek0Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		00E356EC1AD99517003FC87E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		13B07F8E1A680F5B00A75B9A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */,
+				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
+				EB83265CE2444D2EBF9194C0 /* Codec-Warm-Bold-Italic-trial.ttf in Resources */,
+				8006CDFC54FC4AD280C653D1 /* Codec-Warm-Bold-trial.ttf in Resources */,
+				D9FE4DF111F1422CAAF73246 /* Codec-Warm-ExtraBold-Italic-trial.ttf in Resources */,
+				09FB7F455B454386BA578E2E /* Codec-Warm-ExtraBold-trial.ttf in Resources */,
+				375F5BF7FB614F62BAC24FBE /* Codec-Warm-ExtraLight-Italic-trial.ttf in Resources */,
+				B3B0F1A769FB40208B408A54 /* Codec-Warm-ExtraLight-trial.ttf in Resources */,
+				55769509BD364C52A6974CE5 /* Codec-Warm-Heavy-Italic-trial.ttf in Resources */,
+				31510A5EBDCB486E901FB71F /* Codec-Warm-Heavy-trial.ttf in Resources */,
+				20427C7C840749FD92C2A66F /* Codec-Warm-Light-Italic-trial.ttf in Resources */,
+				3C6EC804C4A04178B216275D /* Codec-Warm-Light-trial.ttf in Resources */,
+				10614DEC2D224F2A8651E17C /* Codec-Warm-News-Italic-trial.ttf in Resources */,
+				E5BFBE3B2BEB49E98C3D76FB /* Codec-Warm-News-trial.ttf in Resources */,
+				E132E20FF27A423D9253F02F /* Codec-Warm-Regular-Italic-trial.ttf in Resources */,
+				6860207493764A5686B45524 /* Codec-Warm-Regular-trial.ttf in Resources */,
+				EB88C8C35455400AB9298530 /* Codec-Warm-Thin-Italic-trial.ttf in Resources */,
+				6CF63FFCE78840EB923A845B /* Codec-Warm-Thin-trial.ttf in Resources */,
+				1C977FB63FC94D9684DB2941 /* GalanoGrotesqueAltBlack.otf in Resources */,
+				EEAB39D113F442C5BA31DDA9 /* GalanoGrotesqueAltBlackItalic.otf in Resources */,
+				E8DE94234963451CB714ABD3 /* GalanoGrotesqueAltBold.otf in Resources */,
+				A7E89F6075C143FE86ABBA6A /* GalanoGrotesqueAltBoldItalic.otf in Resources */,
+				AB9CEA55E5A7452F8A035BB2 /* GalanoGrotesqueAltExtraBold.otf in Resources */,
+				7F5D00005EA64BE8AD57FA77 /* GalanoGrotesqueAltExtraBoldItalic.otf in Resources */,
+				A427227309784EC9B51FCA88 /* GalanoGrotesqueAltExtraLight.otf in Resources */,
+				BC3E09A1C66D4E5FA5D576DD /* GalanoGrotesqueAltExtraLightItalic.otf in Resources */,
+				7A4432B6BCB74598AB9E7E71 /* GalanoGrotesqueAltHeavy.otf in Resources */,
+				10D65C0823C84D349A65DC51 /* GalanoGrotesqueAltHeavyItalic.otf in Resources */,
+				B6652E0D90AE484B9EF51147 /* GalanoGrotesqueAltItalic.otf in Resources */,
+				1D801EFBEC1441C0B791BA37 /* GalanoGrotesqueAltLight.otf in Resources */,
+				3977D1B6DC0544B6B4991C21 /* GalanoGrotesqueAltLightItalic.otf in Resources */,
+				62B2B7EB95634560BE144124 /* GalanoGrotesqueAltMedium.otf in Resources */,
+				90C335350F234CD2871923B9 /* GalanoGrotesqueAltMediumItalic.otf in Resources */,
+				F75DA9357E654EF6916D4541 /* GalanoGrotesqueAltRegular.otf in Resources */,
+				0D5DE44B76A8463481B56F7A /* GalanoGrotesqueAltSemiBold.otf in Resources */,
+				3CFE3733FD42448F9E0D2FD7 /* GalanoGrotesqueAltSemiBoldItalic.otf in Resources */,
+				AECDDB35051D4778B51F3669 /* GalanoGrotesqueAltThin.otf in Resources */,
+				4C065EF3993C4E3C972C07D3 /* GalanoGrotesqueAltThinItalic.otf in Resources */,
+				D7B7E0B65AA349879CE60EE5 /* GalanoGrotesqueBlack.otf in Resources */,
+				5345770AAF74412EA522DE61 /* GalanoGrotesqueBlackItalic.otf in Resources */,
+				5252CEAB692B43248DF61E33 /* GalanoGrotesqueBold.otf in Resources */,
+				ACDE7CAE24564E719C8A49F1 /* GalanoGrotesqueBoldItalic.otf in Resources */,
+				3136DB4EED1C4A88A290C90D /* GalanoGrotesqueExtraBold.otf in Resources */,
+				7FA77A280E1D414A99441C66 /* GalanoGrotesqueExtraBoldItalic.otf in Resources */,
+				032EDDAEBA304F958528A907 /* GalanoGrotesqueExtraLight.otf in Resources */,
+				54378E69A3D84EF89A8609D7 /* GalanoGrotesqueExtraLightItalic.otf in Resources */,
+				2027D6854C75437389FD9240 /* GalanoGrotesqueHeavy.otf in Resources */,
+				8B0B23733A794A6ABA07892B /* GalanoGrotesqueHeavyItalic.otf in Resources */,
+				993306DE4EF24AF7B6F36606 /* GalanoGrotesqueItalic.otf in Resources */,
+				405B5B2E59AA400B8371D1F0 /* GalanoGrotesqueLight.otf in Resources */,
+				AF90C1FE60594D5E850EEA07 /* GalanoGrotesqueLightItalic.otf in Resources */,
+				6F0C73A868504223B031AD60 /* GalanoGrotesqueMedium.otf in Resources */,
+				98AA1A39ABF442E7AC5EA146 /* GalanoGrotesqueMediumItalic.otf in Resources */,
+				7BE618B1C188456B8F7D0AD5 /* GalanoGrotesqueRegular.otf in Resources */,
+				AD3977E7E62D4EA29866F050 /* GalanoGrotesqueSemiBold.otf in Resources */,
+				4590594DD6DB4F0C833B26D3 /* GalanoGrotesqueSemiBoldItalic.otf in Resources */,
+				03170DA0B18248BEB0CBE372 /* GalanoGrotesqueThin.otf in Resources */,
+				B080FBD2601B48B6A0E9122D /* GalanoGrotesqueThinItalic.otf in Resources */,
+				A3E0D5EF8A244F6CADDD0FA7 /* MundialBlack.otf in Resources */,
+				5DA29FB4782E4C858120E5E4 /* MundialBlackItalic.otf in Resources */,
+				5C237DE319BA499C9BBE2895 /* MundialBold.otf in Resources */,
+				CC103D1C5E8049FD8E219B12 /* MundialBoldItalic.otf in Resources */,
+				7F41441F0AF14594BECFAB22 /* MundialDemibold.otf in Resources */,
+				960363645DEB496E9EEC2CED /* MundialDemiboldItalic.otf in Resources */,
+				66E58217BC6848EFBF186AC4 /* MundialHair.otf in Resources */,
+				34C136186100416B9B7B0605 /* MundialHairItalic.otf in Resources */,
+				4030341058D0461697E62482 /* MundialItalic.otf in Resources */,
+				479688DF5882416FB4205EA5 /* MundialLight.otf in Resources */,
+				9D846066251A450FBCC3C5C8 /* MundialLightItalic.otf in Resources */,
+				2486A4E25A2F4C81B3564E0D /* MundialRegular.otf in Resources */,
+				C4AC9B83316D4F2D8AB29F29 /* MundialThin.otf in Resources */,
+				A30E16CBDC4B430292E0D819 /* MundialThinItalic.otf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		00DD1BFF1BD5951E006B06BC /* Bundle React Native code and images */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Bundle React Native code and images";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e\n\nexport NODE_BINARY=node\n../node_modules/react-native/scripts/react-native-xcode.sh\n";
+		};
+		33FFB8840AF995C9002FB811 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Seek0-Seek0Tests/Pods-Seek0-Seek0Tests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Seek0-Seek0Tests/Pods-Seek0-Seek0Tests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Seek0-Seek0Tests/Pods-Seek0-Seek0Tests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6E1E042DC6FC3D6B9B5AA7EF /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Seek0-Seek0Tests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A847EFC4DB5BD52293AEB7F0 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Seek0-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B4DF1CB054D5763441579214 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Seek0/Pods-Seek0-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Seek0/Pods-Seek0-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Seek0/Pods-Seek0-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D21996B98DB78B184FA66331 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Seek0-Seek0Tests/Pods-Seek0-Seek0Tests-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Seek0-Seek0Tests/Pods-Seek0-Seek0Tests-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Seek0-Seek0Tests/Pods-Seek0-Seek0Tests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E52EEE4A31CD703B2F46288E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Seek0/Pods-Seek0-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Seek0/Pods-Seek0-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Seek0/Pods-Seek0-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FD10A7F022414F080027D42C /* Start Packager */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = "Start Packager";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "export RCT_METRO_PORT=\"${RCT_METRO_PORT:=8081}\"\necho \"export RCT_METRO_PORT=${RCT_METRO_PORT}\" > \"${SRCROOT}/../node_modules/react-native/scripts/.packager.env\"\nif [ -z \"${RCT_NO_LAUNCH_PACKAGER+xxx}\" ] ; then\n  if nc -w 5 -z localhost ${RCT_METRO_PORT} ; then\n    if ! curl -s \"http://localhost:${RCT_METRO_PORT}/status\" | grep -q \"packager-status:running\" ; then\n      echo \"Port ${RCT_METRO_PORT} already in use, packager is either not running or not running correctly\"\n      exit 2\n    fi\n  else\n    open \"$SRCROOT/../node_modules/react-native/scripts/launchPackager.command\" || echo \"Can't start packager automatically\"\n  fi\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		00E356EA1AD99517003FC87E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				00E356F31AD99517003FC87E /* Seek0Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		13B07F871A680F5B00A75B9A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				13B07FBC1A68108700A75B9A /* AppDelegate.m in Sources */,
+				13B07FC11A68108700A75B9A /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		00E356F51AD99517003FC87E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 13B07F861A680F5B00A75B9A /* Seek0 */;
+			targetProxy = 00E356F41AD99517003FC87E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		00E356F61AD99517003FC87E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5323833B377014A2009F3105 /* Pods-Seek0-Seek0Tests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = Seek0Tests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-lc++",
+					"$(inherited)",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Seek0.app/Seek0";
+			};
+			name = Debug;
+		};
+		00E356F71AD99517003FC87E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 29A9A8895AA2700D3F696A52 /* Pods-Seek0-Seek0Tests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COPY_PHASE_STRIP = NO;
+				INFOPLIST_FILE = Seek0Tests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-lc++",
+					"$(inherited)",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Seek0.app/Seek0";
+			};
+			name = Release;
+		};
+		13B07F941A680F5B00A75B9A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 65E557235EBE520CE4BA0432 /* Pods-Seek0.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_BITCODE = NO;
+				INFOPLIST_FILE = Seek0/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-lc++",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = Seek0;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				VERSIONING_SYSTEM = "apple-generic";
+			};
+			name = Debug;
+		};
+		13B07F951A680F5B00A75B9A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7EFDD925245A5B5368A9B8A6 /* Pods-Seek0.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				INFOPLIST_FILE = Seek0/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-lc++",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = Seek0;
+				SWIFT_VERSION = 5.0;
+				VERSIONING_SYSTEM = "apple-generic";
+			};
+			name = Release;
+		};
+		83CBBA201A601CBA00E9B192 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = "arm64 ";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					/usr/lib/swift,
+					"$(inherited)",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"\"$(TOOLCHAIN_DIR)/usr/lib/swift/$(PLATFORM_NAME)\"",
+					"\"$(TOOLCHAIN_DIR)/usr/lib/swift-5.0/$(PLATFORM_NAME)\"",
+					"\"$(inherited)\"",
+				);
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		83CBBA211A601CBA00E9B192 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = "arm64 ";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					/usr/lib/swift,
+					"$(inherited)",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"\"$(TOOLCHAIN_DIR)/usr/lib/swift/$(PLATFORM_NAME)\"",
+					"\"$(TOOLCHAIN_DIR)/usr/lib/swift-5.0/$(PLATFORM_NAME)\"",
+					"\"$(inherited)\"",
+				);
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "Seek0Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				00E356F61AD99517003FC87E /* Debug */,
+				00E356F71AD99517003FC87E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "Seek0" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				13B07F941A680F5B00A75B9A /* Debug */,
+				13B07F951A680F5B00A75B9A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "Seek0" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				83CBBA201A601CBA00E9B192 /* Debug */,
+				83CBBA211A601CBA00E9B192 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 83CBB9F71A601CBA00E9B192 /* Project object */;
+}
